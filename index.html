@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SupplyChain Ledger Preview</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">BLOCKCHAIN SUPPLYCHAIN MONITOR</div>
+            <div class="status">LIVE DATA • SECURE</div>
+        </header>
+
+        <section class="hero">
+            <img src="hero.png" alt="Supply Chain Network" class="hero-img">
+            <div class="hero-content">
+                <h1>Global Transparency, Decentralized.</h1>
+                <p>Tracking the journey of <strong>RICE</strong> (ID: b4823935) from soil to soul. Real-time proof of origin and automated compliance.</p>
+            </div>
+        </section>
+
+        <section class="stats-grid">
+            <div class="stat-card">
+                <h3>Total Chain Blocks</h3>
+                <div class="value">5</div>
+            </div>
+            <div class="stat-card">
+                <h3>Recorded Transactions</h3>
+                <div class="value">13</div>
+            </div>
+            <div class="stat-card">
+                <h3>Latest Network Difficulty</h3>
+                <div class="value">0x00FF...</div>
+            </div>
+            <div class="stat-card">
+                <h3>Active Nodes</h3>
+                <div class="value">5</div>
+            </div>
+        </section>
+
+        <h2 class="section-title">Current Journey: RICE #b4823935</h2>
+        <section class="journey" id="journey-track">
+            <div class="step active">
+                <div class="step-icon">👨‍🌾</div>
+                <div class="step-label">Farmer</div>
+                <div class="step-desc">"7ag Ali" • Harvested</div>
+            </div>
+            <div class="step active">
+                <div class="step-icon">🏭</div>
+                <div class="step-label">Manufacturer</div>
+                <div class="step-desc">"Basmaty" • Processed</div>
+            </div>
+            <div class="step active">
+                <div class="step-icon">🚛</div>
+                <div class="step-label">Distributor</div>
+                <div class="step-desc">"Wza3ly" • Transit</div>
+            </div>
+            <div class="step active">
+                <div class="step-icon">🏪</div>
+                <div class="step-label">Retailer</div>
+                <div class="step-desc">"Carefour" • Stocked</div>
+            </div>
+            <div class="step">
+                <div class="step-icon">🛒</div>
+                <div class="step-label">Consumer</div>
+                <div class="step-desc">"Mera Mohamed" • Delivered</div>
+            </div>
+        </section>
+
+        <h2 class="section-title">Verified Public Ledger</h2>
+        <section class="ledger">
+            <div class="tx-header tx-row">
+                <span>TX HASH</span>
+                <span>PARTICIPANTS</span>
+                <span>STATUS</span>
+                <span>TIMESTAMP</span>
+            </div>
+            <div id="ledger-content">
+                <!-- Data will be populated here -->
+                <div class="tx-row">
+                    <span class="hash-text">56b8cf41...</span>
+                    <span>Retailer → Consumer</span>
+                    <span class="status-badge status-delivered">Delivered</span>
+                    <span>1775578533238</span>
+                </div>
+                <div class="tx-row">
+                    <span class="hash-text">8f25e1a5...</span>
+                    <span>Manufacturer → Distributor</span>
+                    <span class="status-badge status-shipping">Shipping</span>
+                    <span>1775578533181</span>
+                </div>
+                <div class="tx-row">
+                    <span class="hash-text">45ae11d1...</span>
+                    <span>Farmer → Manufacturer</span>
+                    <span class="status-badge status-delivered">Delivered</span>
+                    <span>1775578533153</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
